@@ -23,8 +23,8 @@
 }
 
 .nav-menu {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     position: relative;
 }
 
@@ -37,11 +37,11 @@
 }
 
 .nav-menu span:first-child {
-    top: 3px;
+    top: 2px;
 }
 
 .nav-menu span:nth-child(2) {
-    top: 7px;
+    top: 11px;
 }
 
 .nav-menu span:last-child {
@@ -85,4 +85,21 @@
     background-color: rgba(255, 255, 255, 0.3);
     top: 40px;
 
+}
+
+.first-part-menu img,
+.third-part-menu img {
+    width: 40px;
+    height: 40px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-telephone h1 {
+    color: black;
+    font-size: 25px;
 }
