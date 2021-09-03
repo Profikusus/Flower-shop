@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .first-part-menu,
 .second-part-menu,
 .third-part-menu {
@@ -49,7 +53,7 @@
 }
 
 .menu {
-    width: 280px;
+    width: 400px;
     max-width: 100%;
     position: fixed;
     top: 0;
@@ -82,8 +86,8 @@
     visibility: visible;
     transform: translateX(0);
     padding: 25px;
-    background-color: rgba(255, 255, 255, 0.3);
-    top: 40px;
+    background-color: rgba(154, 154, 154, 60%);
+    top: 80px;
 
 }
 
@@ -96,7 +100,7 @@
 .header {
     position: sticky;
     top: 0;
-    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(154, 154, 154, 60%);
     z-index: 100;
 }
 
@@ -105,8 +109,49 @@
     font-size: 25px;
 }
 
-.catalog-flowers img {
-    height: 100%;
-    width: 100%;
+.catalog-flowers {
+    height: 700px;
     margin-top: -80px;
+    background-image: url(./images/IMG_3699.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-catalog-flowers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 600px;
+    flex-direction: column;
+}
+
+.logo-content {
+    margin-bottom: 50px;
+}
+
+.catalog-text-content {
+    font-size: 45px;
+    color: white;
+}
+
+.schedule-text-content {
+    font-size: 25px;
+    margin-top: 60px;
+    color: black;
+}
+
+.btn-catalog-content a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-catalog-content {
+    margin-top: 30px;
+}
+
+.btn-catalog-content a::after {
+    content: "\2192";
+    font-size: 30px;
+    color: white;
 }
