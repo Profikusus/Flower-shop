@@ -11,7 +11,7 @@ body {
 .third-part-menu {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 50px;
 }
 
 .first-part-menu {
@@ -52,7 +52,7 @@ body {
     bottom: 3px;
 }
 
-.menu {
+/* .menu {
     width: 400px;
     max-width: 100%;
     position: fixed;
@@ -89,7 +89,7 @@ body {
     background-color: rgba(154, 154, 154, 60%);
     top: 80px;
 
-}
+} */
 
 .first-part-menu img,
 .third-part-menu img {
@@ -97,7 +97,7 @@ body {
     height: 40px;
 }
 .logo img{
-    height: 50px;
+    height: 40px;
 }
 .header {
     filter: blur(0.5px);
@@ -113,8 +113,8 @@ body {
 }
 
 .catalog-flowers {
-    height: 700px;
-    margin-top: -80px;
+    height: 975px;
+    margin-top: ;
     background-image: url(./images/IMG_3699.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    height: 600px;
+    height: 975px;
     flex-direction: column;
 }
 
@@ -182,12 +182,12 @@ body {
     background-position: center;
 }
 
-.fone-color {
+/* .fone-color {
     background-color: rgba(154, 154, 154, 60%);
-}
+} */
 
 .this-is-advertising {
-    height: 300px;
+    height: 680px;
     margin-top: 10px;
     background-image: url(./images/fl_logo1_simple_pink-01\ copy.png);
     filter: blur(5px);
@@ -195,7 +195,27 @@ body {
 .this-is-advertising:hover{
     filter: blur(0);
 }
-
-.product-basket-flowers {
+.product-flowers{
+    background-color: silver;
+}
+.product-baskets{
     background-image: url(./images/IMG_3569.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.parallax {
+    background-image: url("./images/IMG_4241_.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.designer-bouquets{
+    background-image: url(./images/IMG_3845.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
 }
