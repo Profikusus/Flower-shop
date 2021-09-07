@@ -176,13 +176,13 @@ body {
 }
 
 .product-flowers {
-    height: 820px;
+    height: 450px;
     background-size: cover;
     margin-top: 10px;
     background-position: center;
     margin-top: 0;
     background-image: url(./images/IMG_3845.JPG);
-    width: 100%;
+    z-index: 10;
 }
 .product-price{
     display: flex;
@@ -193,21 +193,19 @@ body {
 } */
 
 .this-is-advertising {
-    height: 680px;
+    height: 280px;
     background-image: url(./images/fl_logo1_simple_pink-01\ copy.png);
     filter: blur(5px);
 }
 .this-is-advertising:hover{
     filter: blur(0);
 }
-.product-flowers{
-    background-color: silver;
-}
 .product-baskets{
     background-image: url(./images/IMG_3569.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 280px;
+    background-position: bottom;
+    margin-top: 50px;
 }
 .parallax {
     background-image: url("./images/IMG_4241_.jpg");
@@ -222,6 +220,43 @@ body {
     background-image: url(./images/IMG_3845.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1205px;
+    height: 500px;
     background-position: center;
+}
+.hat-boxes{
+    background-image: url(./images/fl_logo1_simple_powder-01copy.png);
+    height: 500px;
+    width: 100%;
+}
+.img-product-price img{
+    width: 400px;
+    height: 400px;
+}
+.img-product-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.text-content-products-price{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.text-content h1{
+    text-align: center;
+}
+.news-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+#carouselExampleCaptions{
+    height: 500px;
+}
+.carousel-item img{
+    height: 500px;
+    width: 250px;
 }
