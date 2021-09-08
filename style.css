@@ -114,7 +114,7 @@ body {
 
 .catalog-flowers {
     height: 975px;
-    margin-top: ;
+    margin-top: -60px;
     background-image: url(./images/IMG_3699.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,6 +184,10 @@ body {
     background-image: url(./images/IMG_3845.JPG);
     z-index: 10;
     border-radius: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .product-price{
     display: flex;
@@ -216,7 +220,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 150;
   }
 .designer-bouquets{
     background-image: url(./images/IMG_3845.JPG);
@@ -292,10 +295,14 @@ body {
 .slider-flowers-block:hover{
     filter: blur(0);
 }
-.slider-block-content *:not(.slider-block){
-    filter: none;
-  }
-
+.slider-block-content{
+    backdrop-filter: blur(-5px);
+}
 main{
     background-color: #f0cdb9;
+}
+.flowers-name a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
 }
