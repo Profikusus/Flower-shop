@@ -52,7 +52,7 @@ body {
     bottom: 3px;
 }
 
-/* .menu {
+.menu {
     width: 400px;
     max-width: 100%;
     position: fixed;
@@ -89,7 +89,7 @@ body {
     background-color: rgba(154, 154, 154, 60%);
     top: 80px;
 
-} */
+}
 
 .first-part-menu img,
 .third-part-menu img {
@@ -183,19 +183,21 @@ body {
     margin-top: 0;
     background-image: url(./images/IMG_3845.JPG);
     z-index: 10;
+    border-radius: 15px;
 }
 .product-price{
     display: flex;
     justify-content: center;
 }
-/* .fone-color {
-    background-color: rgba(154, 154, 154, 60%);
-} */
+.fone-color {
+    background-color: white
+}
 
 .this-is-advertising {
     height: 280px;
     background-image: url(./images/fl_logo1_simple_pink-01\ copy.png);
     filter: blur(5px);
+    background-color: white;
 }
 .this-is-advertising:hover{
     filter: blur(0);
@@ -227,6 +229,7 @@ body {
     background-image: url(./images/fl_logo1_simple_powder-01copy.png);
     height: 500px;
     width: 100%;
+    background-color: white;
 }
 .img-product-price img{
     width: 400px;
@@ -253,10 +256,46 @@ body {
     align-items: center;
     height: 400px;
 }
-/* #carouselExampleCaptions{
+.slider-block{
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.carousel-item img{
-    height: 500px;
-    width: 250px;
-} */
+.slider-block-content{
+    display: flex;
+}
+.slick-next:before,.slick-prev:before {
+    color: black;
+}
+.slider-block img{
+    height: 400px;
+    width: 450px;
+}
+.price-slider-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.product-name h5, .price h5{
+    line-height: 50px;
+    font-size: 20px;
+}
+.slider-flowers-block{
+    background-image: url(./images/fl_logo1_simple_black-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    filter: blur(5px);
+}
+.slider-flowers-block:hover{
+    filter: blur(0);
+}
+.slider-block-content *:not(.slider-block){
+    filter: none;
+  }
+
+main{
+    background-color: #f0cdb9;
+}
